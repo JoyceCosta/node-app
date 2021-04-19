@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SMARKIO</title>
+</head>
+<style>
+  body {
+  font-family: Arial;
+  color: white;
+}
+
+.metade {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.esquerda {
+  left: 0;
+  background-color: #111;
+}
+
+.direita {
+  right: 0;
+  background-color: green;
+}
+
+.centralizado {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+</style>
+
+<body>
+<div>
+  <div>
+  <div class="metade esquerda">
+    <div class="centralizado">
+    <h3>Comentários</h3>
+      <br>
+    <textarea id="cmt" rows="6" cols="40" name="comment">
+    </textarea><br>
+    <button type="submit" value="Cadastrar">Cadastrar</button>
+    </div>
+  </div>
+  <div class="metade direita">
+    <div class="centralizado">
+      <form>
+    <h3>Comentários</h3>
+      <h1>hi</h1>
+      <h1>Oi</h1>
+      <h1>Como vai?</h1>
+      </form>
+      </div>
+  </div>
+    </form>
+</div>
+</body>
+</html>
